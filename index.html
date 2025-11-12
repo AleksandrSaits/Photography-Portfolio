@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФотоАрт | Профессиональная фотосъемка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">📷</span>
+                ФотоАрт
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">Твоя история в каждом кадре</h1>
+            <p class="hero-subtitle">Профессиональная фотосъемка, которая расскажет вашу уникальную историю</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Смотреть работы</a>
+                <a href="#contact" class="btn btn-secondary">Забронировать съемку</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">О фотографе</h2>
+                <p class="section-subtitle">Познакомимся поближе</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Фотограф">
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Привет, я Анна</h3>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">🎓</span>
+                            <div>
+                                <h4>8 лет опыта</h4>
+                                <p>Профессиональная фотография</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🏆</span>
+                            <div>
+                                <h4>50+ проектов</h4>
+                                <p>Успешно реализовано</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">💫</span>
+                            <div>
+                                <h4>Творческий подход</h4>
+                                <p>Уникальный стиль для каждого</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Моя миссия - создавать не просто фотографии, а визуальные истории, которые будут вдохновлять вас долгие годы. Специализируюсь на портретной, свадебной и коммерческой фотографии.</p>
+                    <a href="#contact" class="btn btn-primary">Обсудить проект</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Мои услуги</h2>
+                <p class="section-subtitle">Что я могу предложить</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">💍</div>
+                    <h3>Свадебная фотосъемка</h3>
+                    <p>Запечатлею самые трогательные моменты вашего особенного дня</p>
+                    <span class="service-price">от 15 000 ₽</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Семейная фотосессия</h3>
+                    <p>Теплые и естественные снимки вашей семьи в уютной атмосфере</p>
+                    <span class="service-price">от 8 000 ₽</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">🌟</div>
+                    <h3>Портретная съемка</h3>
+                    <p>Индивидуальные портреты, которые раскрывают вашу уникальность</p>
+                    <span class="service-price">от 5 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Мои работы</h2>
+                <p class="section-subtitle">Лучшие моменты в кадре</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                <button class="filter-btn" data-filter="family">Семья</button>
+                <button class="filter-btn" data-filter="portrait">Портреты</button>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item" data-category="wedding" data-aos="flip-left">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Свадьба">
+                    <div class="gallery-overlay">
+                        <h4>Свадебная церемония</h4>
+                        <p>Летняя свадьба в парке</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="family" data-aos="flip-left" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1682687221363-72518513620e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Семья">
+                    <div class="gallery-overlay">
+                        <h4>Семейный пикник</h4>
+                        <p>Весенняя фотосессия</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait" data-aos="flip-left" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Портрет">
+                    <div class="gallery-overlay">
+                        <h4>Индивидуальный портрет</h4>
+                        <p>Студийная съемка</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding" data-aos="flip-left" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Свадьба 2">
+                    <div class="gallery-overlay">
+                        <h4>Вечерняя свадьба</h4>
+                        <p>Романтическая атмосфера</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="family" data-aos="flip-left" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1516627145497-ae69578f1f82?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Семья 2">
+                    <div class="gallery-overlay">
+                        <h4>Семейный портрет</h4>
+                        <p>Домашняя фотосессия</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait" data-aos="flip-left" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Портрет 2">
+                    <div class="gallery-overlay">
+                        <h4>Креативный портрет</h4>
+                        <p>Арт-фотография</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Свяжитесь со мной</h2>
+                <p class="section-subtitle">Готовы создать что-то прекрасное вместе?</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                    <h3>📧 Email</h3>
+                    <p>hello@photoart.ru</p>
+                </div>
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3>📞 Телефон</h3>
+                    <p>+7 (999) 123-45-67</p>
+                </div>
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                    <h3>📍 Адрес</h3>
+                    <p>Москва, ул. Творческая, 15</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ФотоАрт. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
